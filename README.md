@@ -1,18 +1,18 @@
-# 📊📱📄 Multi-Part Python Project
+#  Multi-Part Python Project
 
 This repository contains three Python-based data projects designed to demonstrate skills in Exploratory Data Analysis, LLM-based content generation, and document compliance checking.
 
 ---
 
-## ✅ Part 1: EDA on Retail Store Sales (Dirty)
+##  Part 1: EDA on Retail Store Sales (Dirty)
 
-### 📁 Location: `Part1_EDA/eda_retail_sales.ipynb`
+###  Location: `Part1_EDA/eda_retail_sales.ipynb`
 
-### 📌 Dataset:
+###  Dataset:
 - **Source**: [Retail Store Sales (Dirty) - Kaggle](https://www.kaggle.com/datasets/competitions/retail-store-sales-forecasting)
 - This dataset includes messy real-world retail store transaction data with missing values, inconsistent formatting, and hidden patterns.
 
-### 🔍 Key Steps:
+###  Key Steps:
 - **Data Cleaning**
   - Handled missing values, fixed column names, converted datatypes.
   - Normalized inconsistent formats (e.g., sales with commas).
@@ -29,19 +29,19 @@ This repository contains three Python-based data projects designed to demonstrat
   - `matplotlib`, `seaborn` – effective and easy-to-use plotting.
   - `plotly` (optional) – interactive charts.
 
-### 📈 Output:
+###  Output:
 - Clear understanding of sales patterns, top stores, and issues like outliers or imbalanced data.
 
 ---
 
-## ✅ Part 2: Social Media Content Generator (LLM-Free)
+##  Part 2: Social Media Content Generator (LLM-Free)
 
-### 📁 Location: `Part2_SocialMedia/social_media_generator.py`
+###  Location: `Part2_SocialMedia/social_media_generator.py`
 
-### 📌 Objective:
+###  Objective:
 - Generate **5 platform-specific social media posts** from a blog article.
 
-### 🛠️ Features:
+###  Features:
 - Input: `sample_blog.txt` or console input.
 - Output: JSON file with posts for:
   - Twitter (concise, 280 char)
@@ -51,21 +51,21 @@ This repository contains three Python-based data projects designed to demonstrat
   - Reddit (casual + informative)
 - No API required – uses a **template-based** or **LLM plug-in** architecture (compatible with GPT4All, LM Studio).
 
-### 🧩 Design:
+###  Design:
 - `PlatformConfig` class to define post length/style.
 - Modular post generation logic per platform.
 - Optional integration with local LLM for enhanced phrasing.
 
 ---
 
-## ✅ Part 3: PDF Compliance Analyzer
+##  Part 3: PDF Compliance Analyzer
 
-### 📁 Location: `Part3_PDFAnalyzer/pdf_analyzer.py`
+###  Location: `Part3_PDFAnalyzer/pdf_analyzer.py`
 
-### 📌 Objective:
+###  Objective:
 Automatically validate proposal documents in PDF format against formatting and content rules.
 
-### 🧪 Functional Checks:
+###  Functional Checks:
 1. **File Format Validation**
    - Ensures uploaded file is a valid `.pdf`.
 
@@ -104,20 +104,20 @@ Automatically validate proposal documents in PDF format against formatting and c
      }
      ```
 
-### 🌐 (Optional)
+###  (Optional)
 - Streamlit-based minimal web UI for file upload + report view.
 - Highlight violations in annotated PDFs.
 
 ---
 
-## 💻 How to Run
+##  How to Run
 
-### 🔧 Install Requirements
+###  Install Requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-### 🧪 Run Each Part
+###  Run Each Part
 
 #### EDA
 ```bash
@@ -138,7 +138,7 @@ python pdf_analyzer.py --file proposal.pdf
 
 ---
 
-## 🧾 Requirements
+##  Requirements
 
 ```
 pandas
@@ -152,7 +152,7 @@ opencv-python
 python-docx
 
 
-## 📂 Folder Structure
+##  Folder Structure
 
 ```
 project/
@@ -172,6 +172,6 @@ project/
 
 ---
 
-## 📢 Author
+##  Author
 
 Developed by Kushal Pandya  
