@@ -1,0 +1,32 @@
+{
+  "format": {
+    "file_type": "pass",
+    "font_size": "pass",
+    "font_family": "fail",
+    "margin": "fail"
+  },
+  "content": {
+    "job_title_pages": 1,
+    "job_title": "n/a",
+    "job_category_pages": 1,
+    "job_category": "n/a",
+    "location_pages": 1,
+    "location": "n/a",
+    "travel_required_pages": 1,
+    "travel_required": "n/a",
+    "position_type_pages": 1,
+    "position_type": "n/a",
+    "hr_contact_pages": 1,
+    "hr_contact": "n/a",
+    "date_posted_pages": 1,
+    "date_posted": "n/a",
+    "na_pages": 1,
+    "na": "n/a",
+    "skills_pages": 1,
+    "skills": "pass",
+    "qualifications_and_education_requirements_pages": 1,
+    "qualifications_and_education_requirements": "n/a",
+    "additional_notes_pages": 1,
+    "additional_notes": "n/a"
+  }
+}
